@@ -11,7 +11,7 @@ You can use on NestJS Framwework, work nice.
 
 Install the module with: 
 ```
-npm install loanjs
+npm i interest-bankjs
 ```
  
 
