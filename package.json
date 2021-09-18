@@ -1,21 +1,30 @@
 {
   "name": "interest-bankjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Calculate compound interest in Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "tsc",
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "test": "jest"
   },
-  "keywords": ["interest", "bank", "finance"],
+  "keywords": [
+    "interest",
+    "bank",
+    "finance"
+  ],
   "author": "Ángel De La Cruz",
   "license": "ISC",
   "devDependencies": {
+    "ts-jest": "^27.0.5",
     "typescript": "^4.4.3"
   },
   "repository": {
     "url": "https://github.com/angeldelacruzdev/interest-bankjs"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.2.0"
   }
 }
