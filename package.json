@@ -1,0 +1,18 @@
+{
+  "name": "interest-calculator",
+  "version": "1.0.0",
+  "description": "Calculate compound interest in Typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "Ángel De La Cruz",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
