@@ -2,8 +2,10 @@
  
 Calculating loan in equal or diminishing installments - Loan TypeScript
 
+You can use on NestJS Framwework, work nice.
 
-
+- TypeScript: https://github.com/angeldelacruzdev/interest-bankjs 
+- Javascript: https://github.com/kfiku/LoanJS 
  
 ## Getting Started
 
@@ -11,16 +13,12 @@ Install the module with:
 ```
 npm install loanjs
 ```
-
-or Bower:
-```
-bower install loan-js --save
-```
+ 
 
 #### Calculating Loan:
 ```js
-var LoanJS = require('loanjs');
-var loan = new LoanJS.Loan(
+import { Loan } from 'interest-bankjs';
+var loan =  Loan(
   1000, // amount
   12,   // installments number
   5,    // interest rate
@@ -47,7 +45,7 @@ var loan = new LoanJS.Loan(
 ## Documentation
 
 ### Loan
-LoanJS.Loan(amount, installmentsNumber, interestRate, diminishing)
+Loan(amount, installmentsNumber, interestRate, diminishing)
 
 ### Arguments
 | Argument           | type   | default   | Description
@@ -74,69 +72,9 @@ LoanJS.Loan(amount, installmentsNumber, interestRate, diminishing)
   sum           : number
 }
 ```
-
-## Examples
-
-nodejs / browserify example
-```js
-
-var Loan = require('loanjs').Loan;
-
-var loan_1 = new Loan(1000, 12, 5, true);
-// loan on 1 000($) in 12 diminishing installments (ex. months) with 5% interest rate
-
-var loan_2 = new Loan(500000, 360, 3.5);
-// loan on 500 000($) in 360 equal installments (30 years) with 3.5% interest rate
-```
-
-Browser example:
-> You can also render loan as html table
-
-```html
-<script src="../../dist/loan.js"></script>
-<script src="../../dist/loanToHtmlTable.js"></script>
-<script>
-    var loan = new LoanJS.Loan(1000, 12, 5, true);
-    
-    var div = document.createElement("div");
-    div.innerHTML = LoanJS.loanToHtmlTable(loan); // loan rendering as html table string
-    document.body.appendChild(div);
-</script>
-```
-
-more examples [here](https://github.com/kfiku/LoanJS/tree/master/example)
-
-## Similar projects
-* [InterestJS](https://github.com/kfiku/InterestJS) - counting regular savings
-
-## Contributing
-
-Im open to contributors :).
-
-
-## Release History
-
-#### 2017-08-06 v1.0.0
- * go to es6
- * make dist files
- * make 100% covered tests
-
-#### 2016-02-29 v0.1.4
- * update dependencies
-
-#### 2015-10-12 v0.1.3
- * fixing typo intrest -> interest [#3](https://github.com/kfiku/LoanJS/issues/3)
- * update dependencies
-
-#### 2014-11-10 v0.0.4
- * update dependencies
  
-#### 2014-11-10 v0.0.2
- * now you can use it in node/browserify and browser
-
-
-
 ## License
 
-Copyright (c) 2014 Grzegorz Klimek  
+Copyright (c) 2014 Grzegorz Klimek   
+Copyright (c) 2021 Angel De La Cruz  
 Licensed under the MIT license.

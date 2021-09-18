@@ -1,14 +1,4 @@
-/*
- * LoanJS
- * Calculating loan in equal or diminishing installments
- * https://github.com/kfiku/LoanJS
- *
- * Copyright (c) 2014 Grzegorz Klimek
- * Licensed under the MIT license.
- *
- * Copyright (c) 2014 Grzegorz Klimek
- */
-
+ 
 /**
  * Method to getting next instalment
  * @param {number} amount

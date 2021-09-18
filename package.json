@@ -1,6 +1,6 @@
 {
-  "name": "interest-calculator",
-  "version": "1.0.0",
+  "name": "interest-bankjs",
+  "version": "1.0.1",
   "description": "Calculate compound interest in Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.4.3"
+  },
+  "repository": {
+    "url": "https://github.com/angeldelacruzdev/interest-bankjs"
   }
 }
