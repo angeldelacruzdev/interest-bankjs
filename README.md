@@ -1,4 +1,7 @@
+[![Package Quality](https://packagequality.com/badge/interest-bankjs.png)](https://packagequality.com/#?package=interest-bankjs)
+
 # LoanJS on TypeScript
+
  
 Calculating loan in equal or diminishing installments - Loan TypeScript
 
